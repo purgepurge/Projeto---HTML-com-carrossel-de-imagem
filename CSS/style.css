@@ -66,18 +66,33 @@
     to {opacity: 1;}
 }
 
-.text {
-    text-align: center;
-    color: white;
-
-}
-
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image:url('../MEDIA/TGA.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     margin: 0;
+    width: 100%;
+    height: 100vh;
     padding: 0;
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.801);
+    margin: 0 auto;
+    padding: 10 10 40;
+}
+
+.text {
+    max-width: 1000;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
 }
