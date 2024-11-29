@@ -38,7 +38,7 @@
     width: auto;
     margin-top: -22px;
     padding: 10px;
-    color: #731001;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -48,11 +48,11 @@
 }
 
 .prev{
-    left: 10px;
+    left: -40px;
 }
 
 .next{
-    right: 10;
+    right: -40px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -79,6 +79,7 @@ body {
     padding: 0;
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 main {
